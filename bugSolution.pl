@@ -1,0 +1,1 @@
+my @array = (1, 2, 3); my $element; if (@array >= 3){ $element = $array[2];}  # Accessing a valid element; or use a defined default value if index is out of bounds elsif(@array == 0){ $element = 0;} else { $element = $array[-1];} #Access the last element
